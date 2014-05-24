@@ -22,6 +22,7 @@ do
 		if [ $modulus -eq 0 ]; then
 			eval "$task &"
 		fi
+         	#test for git
 	done
 	sleep 1
 done
